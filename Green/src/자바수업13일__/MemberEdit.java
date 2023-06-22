@@ -1,0 +1,141 @@
+//package 자바수업13일__;
+//import java.awt.*;
+//import java.awt.event.ActionEvent;
+//import java.awt.event.ActionListener;
+//import java.awt.event.ItemEvent;
+//import java.awt.event.ItemListener;
+//import java.awt.event.WindowAdapter;
+//import java.awt.event.WindowEvent;
+//import java.sql.Connection;
+//import java.sql.PreparedStatement;
+//import java.sql.ResultSet;
+//import java.sql.Statement;
+//
+//class MemberEdit extends Frame implements ItemListener, ActionListener{
+//	//디비관련 클래스변수들...
+//			Connection conn = null;
+//			String url = "jdbc:mysql://localhost:3306/member?useUnicode=true&characterEncoding=utf8";	
+//			String id = "root";
+//			String pass = "qwer";
+//			Statement stmt = null;
+//			ResultSet rs = null;
+//			PreparedStatement pstmt = null;
+//			/////////////////////////////////////////////////////////////////////////
+//	
+//	Label lbTitle = new Label("[[ 회원정보수정 ]]");
+//	Label lbId =    new Label("아 이 디:");
+//	Label lbPw =    new Label("패스워드:");
+//	Label lbName =  new Label("이   름:");
+//	Label lbHp =    new Label("연 락 처:");
+//	Label lbSex =    new Label("성   별:");
+//	TextField tfId = new TextField();
+//	TextField tfPw = new TextField();
+//	TextField tfName = new TextField();
+//	TextField tfHp = new TextField();
+//	Button btnIdCheck = new Button("찾기");	
+//	Button btnEdit = new Button("수정완료");
+//	Button btnCancel = new Button("취소");
+//	
+//	Choice chSex = new Choice();
+//	
+//	Font font25 = new Font("TimesRoman", Font.PLAIN, 25);
+//	Font font15 = new Font("SansSerif", Font.BOLD, 15);
+//	MemberEdit()
+//	{
+//		super("회원정보수정");
+//		this.setSize(300,450);
+//		this.init();//화면레이아웃구성메서드
+//		start();
+//		this.setLocation(500, 200);
+//		this.setVisible(true);
+//		
+//	}	
+//	void start() {
+//		btnIdCheck.addActionListener(this);
+//		chSex.addItemListener(this);
+//		this.addWindowListener(new WindowAdapter() {
+//			public void windowClosing(WindowEvent e) {
+//				viewClose();
+//			}
+//		});
+//	}
+//	void viewClose() {
+//		this.setVisible(false);
+//	}
+//	void init() //레이아웃 구성하기...
+//	{
+//		this.setLayout(null);//레이아웃을 직접좌표처리하는방식으로하기위해서...		
+//		this.add(lbTitle);
+//		lbTitle.setFont(font25);
+//		lbTitle.setBounds(50, 50, 200, 30);
+//		
+//		this.add(lbId);			lbId.setFont(font15);		lbId.setBounds(30, 100, 80, 30);		
+//		this.add(tfId);			tfId.setFont(font15);		tfId.setBounds(110, 100, 80, 30);
+//		this.add(btnIdCheck);	btnIdCheck.setFont(font15);	btnIdCheck.setBounds(200, 100, 80, 30);
+//		
+//		this.add(lbPw);			lbPw.setFont(font15);		lbPw.setBounds(30, 150, 80, 30);		
+//		this.add(tfPw);			tfPw.setFont(font15);		tfPw.setBounds(110, 150, 80, 30);
+//		
+//		this.add(lbName);		lbName.setFont(font15);		lbName.setBounds(30, 200, 80, 30);		
+//		this.add(tfName);		tfName.setFont(font15);		tfName.setBounds(110, 200, 120, 30);
+//		
+//		this.add(lbHp);			lbHp.setFont(font15);		lbHp.setBounds(30, 250, 80, 30);		
+//		this.add(tfHp);			tfHp.setFont(font15);		tfHp.setBounds(110, 250, 120, 30);
+//		
+//		
+//		this.add(lbSex); lbSex.setFont(font15);				lbSex.setBounds(30, 300, 80, 30);
+//		this.add(chSex); chSex.setFont(font15);				chSex.setBounds(110, 300, 120, 30);
+//		chSex.add("남자"); chSex.add("여자");
+//		
+//		
+//		this.add(btnEdit);		btnEdit.setFont(font15);	btnEdit.setBounds(110, 340, 80, 30);
+//		this.add(btnCancel);	btnCancel.setFont(font15);	btnCancel.setBounds(110, 380, 80, 30);
+//		
+//	}
+//	@Override
+//	public void itemStateChanged(ItemEvent e) {
+//		System.out.println("select sex = "+ chSex.getSelectedIndex());
+//		System.out.println("select sex = "+ chSex.getSelectedItem());
+//		
+//	}
+//	@Override
+//	public void actionPerformed(ActionEvent e) {	
+//		dlgMsg("대상이 없습니다.");
+//
+//		
+//	}
+//	
+//	
+//	void dlgMsg(String msg)
+//	{
+//		Dialog dlg = new Dialog(this, "대상찾기", true);
+//		Label lbContent = new Label(msg);
+//		Button bt = new Button("확인");		
+//		dlg.setLayout(null);		
+//		dlg.add(lbContent);	 lbContent.setFont(font15);
+//		dlg.add(bt);		 bt.setFont(font15);
+//		lbContent.setBounds(50, 50, 200, 30);
+//		bt.setBounds(80, 120, 120, 30);		
+//		bt.addActionListener(new ActionListener() {
+//			public void actionPerformed(ActionEvent e) {
+//				dlg.setVisible(false);
+//			}
+//		});
+//		dlg.addWindowListener(new WindowAdapter() {
+//			public void windowClosing(WindowEvent e) {
+//				dlg.setVisible(false);
+//			}
+//		});		
+//		dlg.setLocation(480,250);
+//		dlg.setSize(300, 200);
+//		dlg.setVisible(true);
+//	}
+//}
+//
+//
+//
+//
+//
+//
+//
+//
