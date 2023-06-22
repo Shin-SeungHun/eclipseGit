@@ -1,0 +1,48 @@
+.root {
+     -fx-background-image: url("img/background.jpg");
+}
+
+Label {
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+#Login {
+   -fx-font-size: 50px;
+   -fx-font-family: "Arial Black";
+   -fx-text-fill: linear-gradient(white, white);
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 3, 0 , 2 , 2.1 );
+}
+
+
+#lbId{
+	 -fx-font-size: 20px;
+   -fx-font-family: "Arial Black";
+   -fx-text-fill: linear-gradient(black, white);
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 3, 0 , 2 , 2.1 );
+}
+
+#lbPw{
+	 -fx-font-size: 20px;
+   -fx-font-family: "Arial Black";
+   -fx-text-fill: linear-gradient(black, white);
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 3, 0 , 2 , 2.1 );
+}
+
+.button {
+	
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0 , 2 , 2 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+.button:pressed {
+    -fx-background-color: linear-gradient(yellow, #61a2b1);	
+}

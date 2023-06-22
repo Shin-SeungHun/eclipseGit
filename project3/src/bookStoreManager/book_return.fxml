@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="526.0" prefWidth="444.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="bookStoreManager.BookReturnController">
+	<children>
+		<Label layoutX="40.0" layoutY="60.0" text="책 제목" />
+		<TextField fx:id="tfTitle" layoutX="40.0" layoutY="86.0"
+			prefHeight="36.0" prefWidth="347.0" />
+		<Button fx:id="btnFindBook" layoutX="40.0" layoutY="139.0"
+			mnemonicParsing="false" prefHeight="36.0" prefWidth="347.0" text="검색">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Button>
+		<Label layoutX="40.0" layoutY="257.0" text="대여자 이름:">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Label>
+		<Label layoutX="40.0" layoutY="293.0" text="대여자 연락처:">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Label>
+		<Label layoutX="41.0" layoutY="332.0" text="책 대여일자:">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Label>
+		<Label fx:id="lbRentUser" layoutX="181.0" layoutY="255.0"
+			prefHeight="30.0" prefWidth="230.0" text="?">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Label>
+		<Label fx:id="lbRentUserHp" layoutX="181.0" layoutY="293.0"
+			prefHeight="25.0" prefWidth="210.0" text="?">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Label>
+		<Label fx:id="lbRentalDate" layoutX="181.0" layoutY="332.0"
+			prefHeight="25.0" prefWidth="251.0" text="?">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Label>
+		<Label layoutX="40.0" layoutY="221.0" text="책 제목:">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Label>
+		<Label fx:id="lbBookName" layoutX="181.0" layoutY="219.0"
+			prefHeight="30.0" prefWidth="230.0" text="?">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Label>
+		<Button fx:id="btnReturn" layoutX="45.0" layoutY="380.0"
+			mnemonicParsing="false" prefHeight="48.0" prefWidth="354.0" text="도서 반납" />
+		<Button fx:id="btnCancel" layoutX="45.0" layoutY="448.0"
+			mnemonicParsing="false" prefHeight="48.0" prefWidth="354.0" text="창닫기" />
+		<ToolBar prefHeight="40.0" prefWidth="444.0">
+			<items>
+				<Label prefHeight="23.0" prefWidth="108.0" text="도서 반납">
+					<font>
+						<Font size="25.0" />
+					</font>
+				</Label>
+			</items>
+		</ToolBar>
+	</children>
+</AnchorPane>

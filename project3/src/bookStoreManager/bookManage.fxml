@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="516.0" prefWidth="412.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="bookStoreManager.BookManagerController">
+	<children>
+		<Button fx:id="btnBookAdd" layoutX="40.0" layoutY="83.0"
+			prefHeight="150.0" prefWidth="150.0" text="도서 등록">
+			<font>
+				<Font size="22.0" />
+			</font>
+		</Button>
+		<Button fx:id="btnBookList" layoutX="218.0" layoutY="83.0"
+			mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="도서 목록">
+			<font>
+				<Font size="22.0" />
+			</font>
+		</Button>
+		<Button fx:id="btnBookEdit" layoutX="40.0" layoutY="261.0"
+			mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="도서 정보수정">
+			<font>
+				<Font size="18.0" />
+			</font>
+		</Button>
+		<Button fx:id="btnBookDel" layoutX="218.0" layoutY="261.0"
+			mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="도서 삭제">
+			<font>
+				<Font size="22.0" />
+			</font>
+		</Button>
+		<Button fx:id="btnCancel" layoutX="40.0" layoutY="434.0"
+			mnemonicParsing="false" prefHeight="53.0" prefWidth="333.0" text="종료">
+			<font>
+				<Font size="22.0" />
+			</font>
+		</Button>
+		<ToolBar layoutX="1.0" prefHeight="47.0" prefWidth="411.0">
+			<items>
+				<Label prefHeight="37.0" prefWidth="141.0" text="도서관리">
+					<font>
+						<Font size="31.0" />
+					</font>
+				</Label>
+				<Button fx:id="btnHome" mnemonicParsing="false" prefHeight="26.0"
+					prefWidth="64.0" text="홈" />
+				<Button fx:id="btnLibrary" mnemonicParsing="false"
+					prefHeight="28.0" prefWidth="69.0" text="도서관" />
+			</items>
+		</ToolBar>
+	</children>
+</AnchorPane>

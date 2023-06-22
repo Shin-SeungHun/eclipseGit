@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="626.0" prefWidth="417.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="bookStoreManager.LibraryController">
+	<children>
+		<Button fx:id="btnRental" layoutX="45.0" layoutY="77.0"
+			prefHeight="150.0" prefWidth="150.0" text="도서대여">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Button>
+		<Button fx:id="btnReturn" layoutX="222.0" layoutY="77.0"
+			mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="도서반납">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Button>
+		<Button fx:id="btnRentalList" layoutX="45.0" layoutY="259.0"
+			mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="도서대여목록">
+			<font>
+				<Font size="19.0" />
+			</font>
+		</Button>
+		<Button fx:id="btnRentalUserList" layoutX="222.0" layoutY="259.0"
+			mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="대여자 목록">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Button>
+		<Button fx:id="btnCancel" layoutX="222.0" layoutY="443.0"
+			mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="종료">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Button>
+		<Button fx:id="btnBookManager" layoutX="45.0" layoutY="443.0"
+			mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="도서관리">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Button>
+		<ToolBar layoutX="2.0" prefHeight="45.0" prefWidth="415.0">
+			<items>
+				<Label text="도서관">
+					<font>
+						<Font size="25.0" />
+					</font>
+				</Label>
+				<Button fx:id="btnHome" mnemonicParsing="false" prefHeight="26.0"
+					prefWidth="78.0" text="홈" />
+			</items>
+		</ToolBar>
+	</children>
+</AnchorPane>

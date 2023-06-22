@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="592.0" prefWidth="524.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="bookStoreManager.BookRentalListController">
+	<children>
+		<Button fx:id="btnOk" layoutX="143.0" layoutY="502.0"
+			prefHeight="44.0" prefWidth="238.0" text="이전화면" />
+		<ListView fx:id="mList" layoutX="18.0" layoutY="188.0"
+			prefHeight="278.0" prefWidth="488.0" />
+		<CheckBox fx:id="cbRentAll" layoutX="15.0" layoutY="74.0"
+			mnemonicParsing="false" text="전체 도서 목록">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</CheckBox>
+		<CheckBox fx:id="cbRentNo" layoutX="15.0" layoutY="149.0"
+			mnemonicParsing="false" prefHeight="28.0" prefWidth="218.0" text="대여중인 도서 목록">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</CheckBox>
+		<CheckBox fx:id="cbRentYes" layoutX="15.0" layoutY="111.0"
+			mnemonicParsing="false" text="대여가능한 도서 목록">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</CheckBox>
+		<ToolBar prefHeight="40.0" prefWidth="524.0">
+			<items>
+				<Label prefHeight="30.0" prefWidth="170.0" text="대여 도서 목록">
+					<font>
+						<Font size="25.0" />
+					</font>
+				</Label>
+			</items>
+		</ToolBar>
+	</children>
+</AnchorPane>

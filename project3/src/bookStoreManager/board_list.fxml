@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="571.0" prefWidth="519.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookStoreManager.BoardListController">
+	<children>
+		<Button fx:id="btnOk" layoutX="179.0" layoutY="499.0" prefHeight="36.0" prefWidth="165.0" text="이전화면" />
+		<ListView fx:id="mList" layoutX="19.0" layoutY="99.0" prefHeight="374.0" prefWidth="481.0" />
+      <ToolBar prefHeight="46.0" prefWidth="519.0">
+        <items>
+      		<Label text="Q &amp; A">
+      			<font>
+      				<Font size="30.0" />
+      			</font>
+      		</Label>
+        </items>
+      </ToolBar>
+	</children>
+</AnchorPane>

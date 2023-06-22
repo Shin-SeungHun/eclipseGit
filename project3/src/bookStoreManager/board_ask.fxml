@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="562.0" prefWidth="457.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookStoreManager.BoardAskController">
+	<children>
+		<Button fx:id="btnRegist" layoutX="17.0" layoutY="491.0" prefHeight="36.0" prefWidth="206.0" text="등록" />
+		<TextArea fx:id="content" layoutX="16.0" layoutY="176.0" prefHeight="291.0" prefWidth="425.0">
+         <font>
+            <Font size="15.0" />
+         </font></TextArea>
+		<TextField fx:id="tfTitle" layoutX="17.0" layoutY="94.0" prefHeight="36.0" prefWidth="425.0">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+		<Label layoutX="17.0" layoutY="62.0" text="제목">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+		<Label layoutX="17.0" layoutY="145.0" text="내용">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+		<Button fx:id="btnBack" layoutX="229.0" layoutY="491.0" prefHeight="36.0" prefWidth="206.0" text="닫기" />
+      <ToolBar prefHeight="46.0" prefWidth="457.0">
+        <items>
+      		<Label text="Q &amp; A">
+      			<font>
+      				<Font size="30.0" />
+      			</font>
+      		</Label>
+        </items>
+      </ToolBar>
+	</children>
+</AnchorPane>
