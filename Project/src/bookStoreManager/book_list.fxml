@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="424.0" prefWidth="344.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookStoreManager.BookListController">
+	<children>
+		<Button fx:id="btnOk" layoutX="140.0" layoutY="368.0" prefHeight="30.0" prefWidth="65.0" text="확인" />
+		<Label layoutX="119.0" layoutY="8.0" text="book list">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+		<ListView fx:id="mList" layoutX="13.0" layoutY="52.0" prefHeight="300.0" prefWidth="317.0" />
+	</children>
+</AnchorPane>

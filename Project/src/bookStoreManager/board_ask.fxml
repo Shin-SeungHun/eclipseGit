@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="424.0" prefWidth="344.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="bookStoreManager.BoardAskController">
+	<children>
+		<Button fx:id="btnRegist" layoutX="94.0" layoutY="379.0"
+			prefHeight="23.0" prefWidth="65.0" text="등록" />
+		<Label layoutX="137.0" layoutY="14.0" text="Q &amp; A">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+		<TextArea fx:id="content" layoutX="17.0" layoutY="142.0"
+			prefHeight="222.0" prefWidth="312.0" />
+		<TextField fx:id="tfTitle" layoutX="17.0" layoutY="87.0"
+			prefHeight="23.0" prefWidth="312.0" />
+		<Label layoutX="17.0" layoutY="72.0" text="제목" />
+		<Label layoutX="17.0" layoutY="127.0" text="내용" />
+		<Button fx:id="btnCancel" layoutX="192.0" layoutY="379.0"
+			prefHeight="23.0" prefWidth="65.0" text="취소" />
+	</children>
+</AnchorPane>

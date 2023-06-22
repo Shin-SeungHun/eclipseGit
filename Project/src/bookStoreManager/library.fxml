@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="464.0" prefWidth="314.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookStoreManager.LibraryController">
+	<children>
+		<Button fx:id="btnRental" layoutX="25.0" layoutY="66.0" prefHeight="94.0" prefWidth="100.0" text="도서대여" />
+		<Button fx:id="btnReturn" layoutX="185.0" layoutY="66.0" mnemonicParsing="false" prefHeight="94.0" prefWidth="100.0" text="도서반납" />
+		<Label layoutX="115.0" layoutY="7.0" text="Library">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+		<Button fx:id="btnRentalList" layoutX="25.0" layoutY="200.0" mnemonicParsing="false" prefHeight="94.0" prefWidth="100.0" text="대여가능한 책" />
+		<Button fx:id="btnRentalUserList" layoutX="185.0" layoutY="200.0" mnemonicParsing="false" prefHeight="94.0" prefWidth="100.0" text="대여자 목록" />
+		<Button fx:id="btnCancel" layoutX="185.0" layoutY="334.0" mnemonicParsing="false" prefHeight="94.0" prefWidth="100.0" text="나가기" />
+		<Button fx:id="btnBookManager" layoutX="25.0" layoutY="334.0" mnemonicParsing="false" prefHeight="94.0" prefWidth="100.0" text="책관리" />
+	</children>
+</AnchorPane>

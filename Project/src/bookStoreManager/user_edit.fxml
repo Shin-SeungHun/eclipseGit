@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="489.0" prefWidth="289.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookStoreManager.UserEditController">
+	<children>
+		<Label layoutX="50.0" layoutY="65.0" text="아이디" />
+		<TextField fx:id="tfId" layoutX="50.0" layoutY="82.0" prefHeight="23.0" prefWidth="158.0" />
+		<Button fx:id="btnEdit" layoutX="51.0" layoutY="423.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="188.0" text="정보수정" />
+		<Label layoutX="72.0" layoutY="14.0" text="Edit account">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+		<Label layoutX="51.0" layoutY="159.0" text="이 름" />
+		<Label layoutX="47.0" layoutY="303.0" text="연락처" />
+		<ChoiceBox fx:id="chGender" layoutX="51.0" layoutY="372.0" prefHeight="23.0" prefWidth="188.0" />
+		<Label layoutX="51.0" layoutY="357.0" text="성 별" />
+		<Button fx:id="btnIdCheck" layoutX="217.0" layoutY="82.0" mnemonicParsing="false" text="찾기" />
+		<TextField fx:id="tfName" layoutX="52.0" layoutY="177.0" prefHeight="23.0" prefWidth="188.0" />
+		<TextField fx:id="tfHp" layoutX="51.0" layoutY="318.0" prefHeight="23.0" prefWidth="188.0" />
+      <TextField fx:id="tfNickname" layoutX="52.0" layoutY="224.0" prefHeight="23.0" prefWidth="188.0" />
+      <TextField fx:id="tfAge" layoutX="51.0" layoutY="268.0" prefHeight="23.0" prefWidth="188.0" />
+      <Label layoutX="52.0" layoutY="209.0" text="닉네임" />
+      <Label layoutX="51.0" layoutY="253.0" text="나 이" />
+      <Label layoutX="51.0" layoutY="115.0" text="비밀번호" />
+      <PasswordField fx:id="tfPw" layoutX="51.0" layoutY="132.0" prefHeight="26.0" prefWidth="188.0" />
+	</children>
+</AnchorPane>

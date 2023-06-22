@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="297.0" prefWidth="285.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="member.EditController">
+	<children>
+		<Label layoutX="42.0" layoutY="64.0" text="아이디 :" />
+		<TextField fx:id="tfId" layoutX="102.0" layoutY="60.0"
+			prefHeight="23.0" prefWidth="80.0" />
+		<Button fx:id="btnCancel" layoutX="110.0" layoutY="247.0"
+			prefHeight="23.0" prefWidth="65.0" text="취소" />
+		<Button fx:id="btnEdit" layoutX="110.0" layoutY="213.0"
+			mnemonicParsing="false" prefHeight="23.0" prefWidth="65.0" text="수정" />
+		<Label layoutX="63.0" layoutY="14.0" text="회원정보 수정">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+		<Label layoutX="41.0" layoutY="98.0" text="이 름 : " />
+		<Label layoutX="37.0" layoutY="136.0" text="연락처 : " />
+		<ChoiceBox fx:id="chSex" layoutX="102.0" layoutY="170.0"
+			prefHeight="23.0" prefWidth="80.0" />
+		<Label layoutX="43.0" layoutY="174.0" text="성 별 :" />
+		<Button fx:id="btnIdCheck" layoutX="199.0" layoutY="60.0"
+			mnemonicParsing="false" text="찾기" />
+		<TextField fx:id="tfName" layoutX="102.0" layoutY="94.0"
+			prefHeight="23.0" prefWidth="138.0" />
+		<TextField fx:id="tfHp" layoutX="102.0" layoutY="132.0"
+			prefHeight="23.0" prefWidth="138.0" />
+	</children>
+</AnchorPane>

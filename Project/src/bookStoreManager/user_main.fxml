@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="518.0" prefWidth="353.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookStoreManager.UserMainController">
+	<children>
+		<Button fx:id="btnList" layoutX="50.0" layoutY="142.0" prefHeight="100.0" prefWidth="100.0" text="회원목록보기" />
+		<Button fx:id="btnEdit" layoutX="200.0" layoutY="142.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="회원정보수정" />
+		<Label layoutX="124.0" layoutY="79.0" text="MyPage">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+		<Button fx:id="btnDel" layoutX="50.0" layoutY="286.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="회원탈퇴" />
+		<Button fx:id="btnJoin" layoutX="200.0" layoutY="286.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="회원가입" />
+		<Button fx:id="btnCancel" layoutX="43.0" layoutY="425.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="267.0" text="나가기" />
+      <VBox layoutX="-26.0" layoutY="-58.0" prefHeight="45.0" prefWidth="353.0" />
+      <ToolBar prefHeight="45.0" prefWidth="353.0">
+        <items>
+          <Button mnemonicParsing="false" prefHeight="23.0" prefWidth="57.0" text="홈" />
+            <Button mnemonicParsing="false" prefHeight="23.0" prefWidth="57.0" text="로그인" />
+            <Button mnemonicParsing="false" prefHeight="23.0" prefWidth="66.0" text="회원가입" />
+        </items>
+      </ToolBar>
+	</children>
+</AnchorPane>

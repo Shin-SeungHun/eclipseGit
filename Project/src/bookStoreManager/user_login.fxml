@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="359.0" prefWidth="320.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="bookStoreManager.UserLoginController">
+	<children>
+		<Label fx:id="lbId" layoutX="18.0" layoutY="134.0" text="아이디">
+			<font>
+				<Font name="System Bold" size="18.0" />
+			</font>
+		</Label>
+		<Label fx:id="lbPw" layoutX="18.0" layoutY="195.0" text="패스워드">
+			<font>
+				<Font name="System Bold" size="18.0" />
+			</font>
+		</Label>
+		<TextField fx:id="tfId" layoutX="106.0" layoutY="133.0"
+			prefHeight="23.0" prefWidth="184.0" />
+		<PasswordField fx:id="tfPw" layoutX="106.0" layoutY="194.0"
+			prefHeight="23.0" prefWidth="184.0" />
+		<Button fx:id="btnLogin" layoutX="66.0" layoutY="276.0"
+			prefHeight="37.0" prefWidth="72.0" text="로그인">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</Button>
+		<Button fx:id="btnJoin" layoutX="171.0" layoutY="276.0"
+			mnemonicParsing="false" prefHeight="37.0" prefWidth="80.0" text="회원가입">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</Button>
+		<Label fx:id="Login" layoutX="102.0" layoutY="34.0" text="Login">
+			<font>
+				<Font name="System Bold" size="12.0" />
+			</font>
+		</Label>
+	</children>
+</AnchorPane>
