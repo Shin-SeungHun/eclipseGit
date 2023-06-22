@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="361.0" prefWidth="367.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="bookStoreManager.BoardListDetailController">
+	<children>
+		<Label layoutX="116.0" layoutY="6.0" prefHeight="41.0"
+			prefWidth="136.0" text="board detail">
+			<font>
+				<Font size="21.0" />
+			</font>
+		</Label>
+		<Label layoutX="19.0" layoutY="48.0" text="제목" />
+		<Label layoutX="19.0" layoutY="102.0" text="내용" />
+		<TextArea fx:id="content" layoutX="19.0" layoutY="117.0"
+			prefHeight="191.0" prefWidth="320.0" />
+		<TextField fx:id="tfTitle" layoutX="19.0" layoutY="63.0"
+			prefHeight="23.0" prefWidth="320.0" />
+		<Button fx:id="btnOk" layoutX="89.0" layoutY="320.0"
+			mnemonicParsing="false" text="확인" />
+		<Button fx:id="btnDel" layoutX="225.0" layoutY="320.0"
+			mnemonicParsing="false" text="삭제" />
+	</children>
+</AnchorPane>

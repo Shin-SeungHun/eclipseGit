@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="424.0" prefWidth="344.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="bookStoreManager.BookRentalListController">
+	<children>
+		<Button fx:id="btnOk" layoutX="140.0" layoutY="375.0"
+			prefHeight="23.0" prefWidth="65.0" text="확인" />
+		<Label layoutX="91.0" layoutY="8.0" text="book rent list">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+		<ListView fx:id="mList" layoutX="14.0" layoutY="146.0"
+			prefHeight="217.0" prefWidth="317.0" />
+		<CheckBox fx:id="cbRentAll" layoutX="14.0" layoutY="74.0"
+			mnemonicParsing="false" text="bookList" />
+		<CheckBox fx:id="cbRentNo" layoutX="14.0" layoutY="119.0"
+			mnemonicParsing="false" prefHeight="16.0" prefWidth="81.0" text="NoRental" />
+		<CheckBox fx:id="cbRentYes" layoutX="14.0" layoutY="96.0"
+			mnemonicParsing="false" text="RentalOk" />
+	</children>
+</AnchorPane>

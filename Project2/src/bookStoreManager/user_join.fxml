@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="494.0" prefWidth="256.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookStoreManager.UserJoinController">
+	<children>
+		<Label layoutX="37.0" layoutY="63.0" text="아이디" />
+		<Label layoutX="35.0" layoutY="118.0" text="패스워드" />
+		<TextField fx:id="tfId" layoutX="37.0" layoutY="80.0" prefHeight="23.0" prefWidth="130.0" />
+		<PasswordField fx:id="tfPw" layoutX="37.0" layoutY="133.0" prefHeight="23.0" prefWidth="180.0" />
+		<Button fx:id="btnJoin" layoutX="38.0" layoutY="434.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="180.0" text="회원가입" />
+		<Label layoutX="77.0" layoutY="8.0" text="회원가입">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+		<Label layoutX="37.0" layoutY="171.0" text="이 름" />
+		<Label layoutX="35.0" layoutY="319.0" text="연락처 " />
+		<ChoiceBox fx:id="chGender" layoutX="37.0" layoutY="386.0" prefHeight="23.0" prefWidth="180.0" />
+		<Label layoutX="35.0" layoutY="371.0" text="성 별" />
+		<Button fx:id="btnIdCheck" layoutX="177.0" layoutY="80.0" mnemonicParsing="false" text="중복체크" />
+		<TextField fx:id="tfHp" layoutX="37.0" layoutY="334.0" prefHeight="23.0" prefWidth="180.0" />
+		<TextField fx:id="tfName" layoutX="37.0" layoutY="186.0" prefHeight="23.0" prefWidth="180.0" />
+      <TextField fx:id="tfNickname" layoutX="37.0" layoutY="235.0" prefHeight="23.0" prefWidth="180.0" />
+      <Label layoutX="37.0" layoutY="220.0" text="닉네임" />
+      <TextField fx:id="tfAge" layoutX="37.0" layoutY="284.0" prefHeight="23.0" prefWidth="180.0" />
+      <Label layoutX="35.0" layoutY="269.0" text="나 이" />
+	</children>
+</AnchorPane>

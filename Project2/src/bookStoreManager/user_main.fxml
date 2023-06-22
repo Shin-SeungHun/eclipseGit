@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="376.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookStoreManager.UserMainController">
+	<children>
+		<Button fx:id="btnList" layoutX="75.0" layoutY="63.0" prefHeight="39.0" prefWidth="149.0" text="회원목록보기" />
+		<Button fx:id="btnEdit" layoutX="75.0" layoutY="119.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="149.0" text="회원정보수정" />
+		<Label layoutX="100.0" layoutY="14.0" text="메인화면">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+		<Button fx:id="btnDel" layoutX="76.0" layoutY="175.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="149.0" text="회원탈퇴" />
+		<Button fx:id="btnJoin" layoutX="76.0" layoutY="232.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="149.0" text="회원가입" />
+		<Button fx:id="btnCancel" layoutX="75.0" layoutY="289.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="149.0" text="닫기" />
+	</children>
+</AnchorPane>

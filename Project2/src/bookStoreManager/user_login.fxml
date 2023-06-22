@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="225.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookStoreManager.UserLoginController">
+	<children>
+		<Label layoutX="24.0" layoutY="83.0" text="아이디" />
+		<Label layoutX="24.0" layoutY="123.0" text="패스워드" />
+		<TextField fx:id="tfId" layoutX="74.0" layoutY="79.0" prefHeight="23.0" prefWidth="184.0" />
+		<PasswordField fx:id="tfPw" layoutX="76.0" layoutY="119.0" prefHeight="23.0" prefWidth="184.0" />
+		<Button fx:id="btnLogin" layoutX="76.0" layoutY="172.0" prefHeight="23.0" prefWidth="65.0" text="로그인" />
+		<Button fx:id="btnJoin" layoutX="166.0" layoutY="172.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="65.0" text="회원가입" />
+		<Label layoutX="88.0" layoutY="14.0" text="BookStore">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+	</children>
+</AnchorPane>

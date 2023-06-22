@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="388.0" prefWidth="327.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookStoreManager.UserDelController">
+	<children>
+		<Label layoutX="23.0" layoutY="77.0" text="아이디:" />
+		<Label layoutX="23.0" layoutY="118.0" text="이 름:" />
+		<TextField fx:id="tfId" layoutX="74.0" layoutY="73.0" prefHeight="23.0" prefWidth="133.0" />
+		<Button fx:id="btnDel" layoutX="77.0" layoutY="278.0" prefHeight="43.0" prefWidth="174.0" text="탈퇴하기" />
+		<Label layoutX="108.0" layoutY="14.0" prefHeight="30.0" prefWidth="112.0" text="회원 탈퇴">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+		<Button fx:id="btnIdCheck" layoutX="228.0" layoutY="73.0" prefHeight="23.0" prefWidth="65.0" text="찾기" />
+		<Label fx:id="lbName" layoutX="81.0" layoutY="118.0" prefHeight="15.0" prefWidth="48.0" text="대기중..." />
+		<Label layoutX="23.0" layoutY="206.0" text="연락처:" />
+		<Label fx:id="lbHp" layoutX="81.0" layoutY="206.0" text="대기중..." />
+		<Label layoutX="23.0" layoutY="231.0" prefHeight="0.0" prefWidth="32.0" text="성 별:" />
+		<Label fx:id="lbGender" layoutX="81.0" layoutY="231.0" text="대기중..." />
+      <Label fx:id="lbNickname" layoutX="81.0" layoutY="151.0" text="대기중..." />
+      <Label fx:id="lbAge" layoutX="81.0" layoutY="181.0" text="대기중..." />
+      <Label layoutX="23.0" layoutY="151.0" text="닉네임:" />
+      <Label layoutX="23.0" layoutY="181.0" text="나 이:" />
+	</children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="313.0" prefWidth="261.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="bookStoreManager.BookRentalController">
+	<children>
+		<Label layoutX="37.0" layoutY="68.0" text="책 제목" />
+		<TextField fx:id="tfTitle" layoutX="37.0" layoutY="83.0"
+			prefHeight="23.0" prefWidth="158.0" />
+		<Button fx:id="btnRental" layoutX="36.0" layoutY="239.0"
+			mnemonicParsing="false" prefHeight="23.0" prefWidth="188.0" text="대여하기" />
+		<Label layoutX="61.0" layoutY="14.0" text="book rental">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+		<Label layoutX="36.0" layoutY="149.0" text="연락처" />
+		<Button fx:id="btnFindBook" layoutX="204.0" layoutY="83.0"
+			mnemonicParsing="false" text="검색" />
+		<TextField fx:id="tfHp" layoutX="36.0" layoutY="166.0"
+			prefHeight="23.0" prefWidth="188.0" />
+		<Label layoutX="37.0" layoutY="107.0" text="대여자" />
+		<TextField fx:id="tfUser" layoutX="37.0" layoutY="122.0"
+			prefHeight="23.0" prefWidth="188.0" />
+	</children>
+</AnchorPane>

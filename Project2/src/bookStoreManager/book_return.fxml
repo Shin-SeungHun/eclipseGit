@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="184.0" prefWidth="261.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="bookStoreManager.BookReturnController">
+	<children>
+		<Label layoutX="37.0" layoutY="68.0" text="책 제목" />
+		<TextField fx:id="tfTitle" layoutX="37.0" layoutY="83.0"
+			prefHeight="23.0" prefWidth="198.0" />
+		<Label layoutX="60.0" layoutY="14.0" text="book return">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+		<Button fx:id="btnFindBook" layoutX="37.0" layoutY="123.0"
+			mnemonicParsing="false" prefHeight="23.0" prefWidth="198.0" text="검색" />
+	</children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="362.0" prefWidth="300.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="bookStoreManager.BookManagerController">
+	<children>
+		<Button fx:id="btnBookAdd" layoutX="75.0" layoutY="63.0"
+			prefHeight="39.0" prefWidth="149.0" text="책 등록" />
+		<Button fx:id="btnBookList" layoutX="75.0" layoutY="119.0"
+			mnemonicParsing="false" prefHeight="39.0" prefWidth="149.0" text="책 리스트" />
+		<Label layoutX="89.0" layoutY="14.0" text="bookStore">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+		<Button fx:id="btnBookEdit" layoutX="76.0" layoutY="175.0"
+			mnemonicParsing="false" prefHeight="39.0" prefWidth="149.0" text="책 정보 수정" />
+		<Button fx:id="btnBookDel" layoutX="76.0" layoutY="232.0"
+			mnemonicParsing="false" prefHeight="39.0" prefWidth="149.0" text="책 삭제" />
+		<Button fx:id="btnCancel" layoutX="75.0" layoutY="289.0"
+			mnemonicParsing="false" prefHeight="39.0" prefWidth="149.0" text="닫기" />
+	</children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+
+<AnchorPane prefHeight="214.0" prefWidth="384.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<Button id="btnOk" layoutX="134.0" layoutY="151.0" prefHeight="23.0"
+			prefWidth="113.0" text="반납하기" />
+		<Label id="txtTitle" layoutX="127.0" layoutY="14.0" prefHeight="30.0"
+			prefWidth="147.0" text="return book">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+		<Label layoutX="34.0" layoutY="65.0" prefHeight="19.0"
+			prefWidth="87.0" text="bookName" />
+		<Label layoutX="56.0" layoutY="100.0" text="hp" />
+		<Label layoutX="22.0" layoutY="125.0" prefHeight="15.0"
+			prefWidth="87.0" text="rental_date" />
+		<Label fx:id="lbHp" layoutX="141.0" layoutY="100.0" prefHeight="15.0"
+			prefWidth="158.0" />
+		<Label fx:id="lbDate" layoutX="141.0" layoutY="125.0"
+			prefHeight="15.0" prefWidth="158.0" />
+		<Label fx:id="lbTitle" layoutX="141.0" layoutY="67.0"
+			prefHeight="15.0" prefWidth="147.0" />
+	</children>
+</AnchorPane>

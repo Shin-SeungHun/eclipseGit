@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="311.0" prefWidth="256.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookStoreManager.BookAddController">
+	<children>
+		<Label layoutX="39.0" layoutY="57.0" text="책 제목" />
+		<Label layoutX="39.0" layoutY="148.0" text="책 저자" />
+		<TextField fx:id="tfTitle" layoutX="37.0" layoutY="72.0" prefHeight="23.0" prefWidth="180.0" />
+		<Button fx:id="btnRegist" layoutX="40.0" layoutY="255.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="180.0" text="등록" />
+		<Label layoutX="77.0" layoutY="8.0" text="책 등록">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+      <Label layoutX="37.0" layoutY="195.0" text="출판사" />
+      <TextField fx:id="tfPrice" layoutX="39.0" layoutY="122.0" prefHeight="23.0" prefWidth="180.0" />
+      <Label layoutX="39.0" layoutY="107.0" text="책 가격" />
+      <TextField fx:id="tfAuthor" layoutX="38.0" layoutY="163.0" prefHeight="23.0" prefWidth="180.0" />
+      <TextField fx:id="tfPublisher" layoutX="37.0" layoutY="210.0" prefHeight="23.0" prefWidth="180.0" />
+	</children>
+</AnchorPane>

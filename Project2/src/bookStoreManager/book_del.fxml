@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="388.0" prefWidth="327.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookStoreManager.BookDelController">
+	<children>
+		<Label layoutX="23.0" layoutY="58.0" text="책 제목" />
+		<Label layoutX="23.0" layoutY="118.0" text="책 제목:" />
+		<TextField fx:id="tfTitle" layoutX="23.0" layoutY="73.0" prefHeight="23.0" prefWidth="187.0" />
+		<Button fx:id="btnDel" layoutX="77.0" layoutY="278.0" prefHeight="43.0" prefWidth="174.0" text="삭제하기" />
+		<Label layoutX="90.0" layoutY="14.0" prefHeight="30.0" prefWidth="148.0" text="book delete">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+		<Button fx:id="btnFindBook" layoutX="228.0" layoutY="73.0" prefHeight="23.0" prefWidth="65.0" text="찾기" />
+		<Label fx:id="lbTitle" layoutX="81.0" layoutY="110.0" prefHeight="30.0" prefWidth="65.0" text="대기중..." />
+		<Label layoutX="25.0" layoutY="133.0" text="가격:" />
+		<Label fx:id="lbPrice" layoutX="81.0" layoutY="133.0" text="대기중..." />
+		<Label fx:id="lbAuthor" layoutX="81.0" layoutY="151.0" text="대기중..." />
+		<Label fx:id="lbPublisher" layoutX="81.0" layoutY="181.0" text="대기중..." />
+		<Label layoutX="23.0" layoutY="151.0" text="저 자:" />
+		<Label layoutX="23.0" layoutY="181.0" text="출판사: " />
+	</children>
+</AnchorPane>
